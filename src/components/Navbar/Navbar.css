@@ -1,0 +1,50 @@
+.navbar_container {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding : 0 5%;
+    background-color: #131921;
+  }
+  
+  .navbar_logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+  }
+  
+  
+  
+  .navbar_search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+    justify-content: center;
+  }
+  
+  
+  .navbar_search > input {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 50%;
+    
+  }
+  
+  .navbar_search > img {
+    padding: 5px;
+    height: 22px ;
+    background-color: #cd9042;
+  }
+  
+  
+  
+  .navbar_buttons {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  

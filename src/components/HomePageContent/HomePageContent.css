@@ -1,0 +1,42 @@
+.homepage_container {
+    background-color: rgb(255, 123, 0);
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 15%;
+}
+
+.homepage_content{
+    font-size: 35px;
+}
+
+.homepage_content > h5{
+    font-weight: 250 ;
+    font-size: 20px;
+}
+
+.homepage_card_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    margin: -3% 5%;
+}
+
+.homepage_card{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 30px 50px;
+    box-shadow: 5px 8px 5px #484848;
+    cursor: pointer;
+    align-items: center;    
+}
+
+.homepage_card > p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}

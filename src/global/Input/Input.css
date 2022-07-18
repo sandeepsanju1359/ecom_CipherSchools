@@ -1,0 +1,9 @@
+.global_input{
+    margin: 10px 0;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 0 10px;
+    width: 300px;
+    background-color: lightgray;
+}
